@@ -13,3 +13,14 @@ Para ejecutar el script de instalación:
 chmod +x cli-google-install.sh
 ./cli-google-install.sh
 ```
+
+## Instalación con Verificación
+
+Este script incluye validaciones adicionales (conexión a internet, espacio en disco, privilegios) antes de instalar el CLI.
+
+### Uso
+
+```bash
+chmod +x install_gcloud_with_verification.sh
+sudo ./install_gcloud_with_verification.sh
+```
