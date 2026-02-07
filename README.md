@@ -24,3 +24,18 @@ Este script incluye validaciones adicionales (conexión a internet, espacio en d
 chmod +x install_gcloud_with_verification.sh
 sudo ./install_gcloud_with_verification.sh
 ```
+
+## Solución de Problemas y Actualización
+
+Si encuentras errores como "component manager disabled" o necesitas actualizar la CLI de manera limpia, utiliza el script `fix_upgrade_install.sh`. Este script realiza:
+- Validaciones de entorno.
+- Limpieza de configuraciones antiguas.
+- Re-configuración del repositorio oficial.
+- Reinstalación limpia y actualización de componentes.
+
+### Uso
+
+```bash
+chmod +x fix_upgrade_install.sh
+sudo ./fix_upgrade_install.sh
+```
