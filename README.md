@@ -1,6 +1,16 @@
 # google-cloud-platform-config
 Archivos de configuracion
 
+## Descripción General de Scripts
+
+Este repositorio ofrece varias herramientas para gestionar la CLI de Google Cloud en Linux:
+
+| Archivo | Descripción | Uso Recomendado |
+|---------|-------------|-----------------|
+| `cli-google-install.sh` | Instalación básica. | Instalación rápida estándar. |
+| `install_gcloud_with_verification.sh` | Instalación con validaciones previas. | Entornos de producción o para asegurar prerrequisitos. |
+| `fix_upgrade_install.sh` | Reparación y actualización. | Corregir errores de "component manager" o actualizar versión. |
+
 ## Instalación CLI de Google Cloud Platform
 
 Este repositorio contiene un script para configurar e instalar el CLI de Google Cloud Platform.
